@@ -1,0 +1,4 @@
+1. Still need to create the "História" page
+2. Still need to create the "Eventos" page
+3. Still need to create the "Cadastro" page
+4. Still need to create the "Contato" page
