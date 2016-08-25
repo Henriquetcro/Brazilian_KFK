@@ -24,6 +24,7 @@ ul.topnav {
 
 ul.topnav li {
     float: left;
+    /* The place where the list will appear. */
 }
 
 ul.topnav li a {
@@ -38,6 +39,7 @@ ul.topnav li a {
 
 ul.topnav li a:hover {
     background-color: #555;
+    /* The color that appers when the mouse is in the option position.*/
 }
 
 ul.topnav li.icon {

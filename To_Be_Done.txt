@@ -1,4 +1,9 @@
+------------------KIDS------------------
 1. Still need to create the "História" page
 2. Still need to create the "Eventos" page
-3. Still need to create the "Cadastro" page
+3. Still need to create the "Cadastro" page (DONE)
 4. Still need to create the "Contato" page
+5. Add comments in all the files
+
+----------------CADASTRO----------------
+1. Resize texts and textbox
