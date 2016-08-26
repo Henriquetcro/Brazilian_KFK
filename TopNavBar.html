@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin:0;
+            }
+            
+            ul.topnav {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+            }
+
+            ul.topnav li {
+                float: left;
+            }
+
+            ul.topnav li a {
+              display: inline-block;
+              color: #f2f2f2;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              transition: 0.3s;
+              font-size: 17px;
+            }
+
+            ul.topnav li a:hover {
+                background-color: #555;
+            }
+
+            ul.topnav li.icon {
+                display: none;
+            }
+
+            @media screen and (max-width:680px) {
+              ul.topnav li:not(:first-child) {display: none;}
+              ul.topnav li.icon {
+                float: right;
+                display: inline-block;
+              }
+            }
+
+            @media screen and (max-width:680px) {
+              ul.topnav.responsive {position: relative;}
+              ul.topnav.responsive li.icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+              }
+              ul.topnav.responsive li {
+                float: none;
+                display: inline;
+              }
+              ul.topnav.responsive li a {
+                display: block;
+                text-align: left;
+              }
+            }
+            </style>
+    </head>
+    
+    <body>
+        <ul class="topnav" id="myTopnav">
+            <li><a class="active" href="#historia">História</a></li> 
+            <li><a href="#eventos">Eventos</a></li>         
+            <li><a href="Kids_Cadastro.html">Cadastro</a></li>      
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#doacao">Doação</a></li>
+            <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="navIcon()">☰</a></li>
+        </ul>
+        
+        <script>
+            //Function: navIcon()
+            //Purpose: It is responsible to show the menu list when the button is clicked.
+            //Parameters: None
+            //Returns: Nothing
+            function navIcon() {
+                var nav = document.getElementById("myTopnav");  // Get the id of the navegation bar
+                // The button click will change the status of the bar.
+                if (nav.className === "topnav") {       //If the options are hidden
+                    nav.className += " responsive";     // It will show all the options as a vertical list
+                }   
+                else {      //If the options are not hidden
+                    nav.className = "topnav";   // It will hide all the options
+                }
+            }
+        </script>
+    </body>
+    
+</html>
