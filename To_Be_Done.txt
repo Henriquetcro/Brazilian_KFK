@@ -1,3 +1,12 @@
+/*  
+Henrique Teixeira de Oliveira
+Pontifícia Universidade Católica do Rio de Janeiro
+University of Southern California
+E-mail: henriquetcro@gmail.com
++55(21)981430609
+Rio de Janeiro, Brazil 
+*/
+
 ------------------KIDS------------------
 1. Still need to create the "História" page
 2. Still need to create the "Eventos" page

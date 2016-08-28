@@ -7,14 +7,23 @@ E-mail: henriquetcro@gmail.com
 Rio de Janeiro, Brazil 
 */
 
+p.logo {
+    font-size: 18px;
+    margin: auto;
+    padding: 18px 0px;
+    text-align: center;
+}
+
 div.tabela{
     width: 60%;
 }
 
 ul.topnav {
       list-style-type: none;
-      margin: 0;
+      width: 100%;
+      margin: auto;
       padding: 0;
+      align-self: center;
       overflow: hidden;
       background-color: forestgreen;
     }
@@ -34,8 +43,12 @@ ul.topnav li a {
     }
 
 ul.topnav li a:hover {
-      background-color: #555;
+      background-color: #45a049;
     }
+
+ul.topnav li.doacao{
+    float: right;
+}
 
 ul.topnav li.icon {
     display: none;
@@ -76,7 +89,9 @@ ul.topnav.responsive li a {
 div.footer {
     background-color: white;
     bottom: 0;
-    width: 90%
+    width: 90%;
+    margin: auto;
+    align-content: center;
 }    
 
 p.p-footer {

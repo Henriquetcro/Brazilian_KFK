@@ -7,6 +7,24 @@ E-mail: henriquetcro@gmail.com
 Rio de Janeiro, Brazil 
 */
 
+h1 {
+    font-size: 24px;
+    text-align:center;
+    align-self: center;
+    margin: 20px auto;
+    width: 95%;
+    background-color: white;
+}
+
+h2 {
+    font-size: 18px;
+    text-align:justify;
+    align-self: center;
+    margin: 20px auto;
+    width: 95%;
+    background-color: white;
+}
+
 input[type=text], select {
     width: 100%;
     padding: 5px 10px;
