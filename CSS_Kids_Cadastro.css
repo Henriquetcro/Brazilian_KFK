@@ -35,6 +35,15 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
+select[type=data] {
+    padding: 5px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 input[type=cadastrar] {
     width: 100%;
     background-color: #4CAF50;
@@ -51,13 +60,19 @@ input[type=cadastrar]:hover {
     background-color: #45a049;
 }
 
-div.cadastrar {
+div[class=cadastrar] {
     margin: 16px auto;
     width: 50%;
     border-radius: 10px;
     background-color: #f2f2f2;
     padding: 15px 15px 0.1px 15px;
 }
+
+.facebook {
+    float:left;
+    width:30%;
+}
+
 p[id=aviso] {
     color: red;
     font-size: 12px;

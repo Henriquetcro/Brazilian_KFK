@@ -18,13 +18,13 @@ Rio de Janeiro, Brazil
 	</head>
     <body>
         
-        
         <ul class="topnav" id="myTopnav">
             <li><a class="active" href="Kids.html">KICKS FOR KIDS - PUC-RJ</a></li>
             <li><a href="Kids_Eventos.html">Eventos</a></li>
             <li><a href="Kids_Cadastro_Jogador.html">Cadastro do Jogador</a></li> 
             <li><a href="Kids_Cadastro_Voluntario.html">Seja um Voluntário</a></li>
             <li><a href="#contato">Contato</a></li>
+            
             <li class="doacao"><a href="#doacao">SUPORTE NOSSA CAUSA!</a></li>
             <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="navIcon()">☰</a></li>
         </ul>
@@ -32,7 +32,6 @@ Rio de Janeiro, Brazil
         <h1>Venha fazer parte da nossa equipe de voluntários!</h1>
         
         <h2>O seu cadastro é importante para que possamos fazer um número maior de sorrisos durante as nossas atividades. Você não precisa saber absolutamente NADA sobre futebol, pedimos apenas que traga sua felicidade e alegria para que nossos eventos sejam TUDO no dia de nossos amiguinhos.</h2>
-        
         
         
         <div class=cadastrar>
@@ -51,6 +50,9 @@ Rio de Janeiro, Brazil
                 
             <label for="confirma-email">Confirmação do E-mail</label>
             <input type="text" id="confirma_input" name="confirma_in">
+                
+            <label for="aniversario">Data de Nascimento</label>                
+            <input type="date" name="bday">
                 
             <label for="curso">Curso</label>
             <select id="curso_input" name="curso_in">
@@ -98,7 +100,7 @@ Rio de Janeiro, Brazil
             
 
             <label for="estado">Estado</label>
-                <select id="estado_input" name="estado_in">
+            <select id="estado_input" name="estado_in">
                 <option value="estado_defalt"></option>
                 <option value="acre">Acre(AC)</option>
                 <option value="alagoas">Alagoas(AL)</option>
@@ -135,12 +137,25 @@ Rio de Janeiro, Brazil
             <p id=aviso>* Todos os dados informados serão apenas utilizados para identificação dos candidatos durante os eventos e envio de e-mails referentes as atividades.<p>
         </div>
         
+        <div>
+            <!--
+            <img src="/Pictures/Kicks_for_Kids-1.jpg" alt="Mountain View" style="width:304px;height:228px;">
+            <img src="/Pictures/Kicks_for_Kids-2.jpg" alt="Mountain View" style="width:304px;height:228px;">
+            <img src="/Pictures/Kicks_for_Kids-3.jpg" alt="Mountain View" style="width:304px;height:228px;">
+            <img src="/Pictures/Kicks_for_Kids-4.jpg" alt="Mountain View" style="width:304px;height:228px;">
+            -->
+        </div>
+            
         <div class="footer">
             <p class=p-footer>
                Kicks for Kids - P**-RJ<br>
                Faça a diferença hoje, não deixe para amanhã!<br>
                Telefone: (21)98143-0609<br>
-               E-mail: kfk-rio@gmail.com</p>
+               E-mail: kfk-rio@gmail.com<br><br>
+               Siga, curta e compartilhe a nossa página no Facebook!</p>
+        </div>
+        <div class=facebook> 
+            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FUSCkicksforkids&width=450&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
         </div>
     </body>
     <script src="JS_Kids.js"></script>
