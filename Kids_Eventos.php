@@ -11,8 +11,8 @@ Rio de Janeiro, Brazil
 <html lang="en-US">
 	<head>
 		<title>Kicks for Kids - RJ</title>
-		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 		<meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="CSS_Kids_Cadastro.css">
         <link rel="stylesheet" type="text/css" href="All_pages.css">
 	</head>
