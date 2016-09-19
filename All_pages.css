@@ -20,8 +20,6 @@ div.tabela{
 
 ul.topnav {
       list-style-type: none;
-      width: 100%;
-      margin: auto;
       padding: 0;
       align-self: center;
       overflow: hidden;
@@ -32,13 +30,29 @@ ul.topnav li {
       float:left;
     }
 
+ul.topnav li#menu_left {
+      margin: 0 0 0 10%;
+      
+    }
+ul.topnav li#menu_right {
+      margin: 0 0 0 10%;
+    }
+ul.topnav li.doacao{
+    float: right;
+    margin: 0 10% 0 0;
+}
+ul.topnav li.doacao{
+    float: right;
+}
+
+
 ul.topnav li a {
       display: inline-block;
       color: #f2f2f2;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
-      transition: 0.3s;
+      transition: 0.5s;
       font-size: 17px;
     }
 
@@ -46,15 +60,12 @@ ul.topnav li a:hover {
       background-color: #45a049;
     }
 
-ul.topnav li.doacao{
-    float: right;
-}
 
 ul.topnav li.icon {
     display: none;
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:1150px) {
     ul.topnav li:not(:first-child){
         display: none;
     }
@@ -64,7 +75,7 @@ ul.topnav li.icon {
     }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:1150px) {
     ul.topnav.responsive {position: relative;}
     ul.topnav.responsive li.icon {
         position: absolute;
@@ -87,7 +98,6 @@ ul.topnav.responsive li a {
 
 
 div.footer {
-    background-color: white;
     bottom: 0;
     width: 90%;
     margin: auto;

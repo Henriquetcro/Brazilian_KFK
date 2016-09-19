@@ -1,0 +1,58 @@
+/*  
+Henrique Teixeira de Oliveira
+Pontifícia Universidade Católica do Rio de Janeiro
+University of Southern California
+E-mail: henriquetcro@gmail.com
++55(21)981430609
+Rio de Janeiro, Brazil 
+*/
+
+
+figure.foto-legenda {
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    position: relative;
+    width: 360px;
+    height: 360px;
+    float: left;
+    border: 8px;
+    float: left;
+}
+
+figure.foto-legenda img {
+    width: 360px;
+    height: 360px;  
+}
+
+figure.foto-legenda figcaption {
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    color: white;
+    width: 360px;
+    height: 360px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+figure.foto-legenda:hover figcaption {
+    color: deeppink;
+    background-color: rgba(0,0,0,0.3);
+}
+
+div.foto {
+    margin: 250px 0px 0px 0px;
+}
+
+
+h1 {
+    font-size: 18px;
+
+}
+
+h2 {
+    font-size: 15px;
+    text-align: center;
+    
+}
