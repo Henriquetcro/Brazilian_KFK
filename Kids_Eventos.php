@@ -37,39 +37,36 @@ Rio de Janeiro, Brazil
         
 
 
-        <div>
+        <div id="eventos">
             
-        <div style="float:left;width:33%">
+        <div id="evento">
             <figure class="foto-legenda">
             <img src="images/12998352_833507633457687_1091591875425750832_o.jpg"/>
             <figcaption>
                 <div class="foto">
-                    <h1>PRIMEIRO EVENTO</h1> 
-                    <h2>DIA 03/05</h2>
+                    <h1 id="eventos">PRIMEIRO EVENTO - DIA 03/05</h1> 
                 </div>
             </figcaption> 
             </figure>
         </div>
         
-        <div style="float:left;width:33%">
+        <div id="evento">
             <figure class="foto-legenda">
-            <img src="images/Henrique-kfk.jpg"/>
-            <figcaption>
-                <div class="foto">
-                    <h1>SEGUNDO EVENTO</h1> 
-                    <h2>DIA 03/05</h2>
-                </div>
-            </figcaption> 
+                <img src="images/Henrique-kfk.jpg"/>
+                <figcaption>
+                    <div class="foto">
+                        <h1 id="eventos">SEGUNDO EVENTO - DIA 03/05</h1> 
+                    </div>
+                </figcaption> 
             </figure>
         </div>
             
-        <div style="float:left;width:33%">
+        <div id="evento">
             <figure class="foto-legenda">
             <img src="images/12657222_753968681411583_7519075128256035181_o.jpg"/>
             <figcaption>
                 <div class="foto">
-                    <h1>TERCEIRO EVENTO</h1> 
-                    <h2>DIA 03/05</h2>
+                    <h1 id="eventos">TERCEIRO EVENTO - DIA 03/05</h1> 
                 </div>
             </figcaption> 
             </figure>

@@ -320,7 +320,6 @@ Rio de Janeiro, Brazil
                 <img src="/Pictures/Kicks_for_Kids-4.jpg" alt="Mountain View" style="width:304px;height:228px;">
                 -->
             </div>
-
             <div class="footer">
                 <p class=p-footer>
                    Kicks for Kids - P**-RJ<br>
@@ -329,10 +328,9 @@ Rio de Janeiro, Brazil
                    E-mail: kfk-rio@gmail.com<br><br>
                    Siga, curta e compartilhe a nossa página no Facebook!</p>
             </div>
-
-            <div class=facebook> 
-                <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FUSCkicksforkids&width=450&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-            </div>
+                <div class=facebook> 
+                    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FUSCkicksforkids&width=450&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
         </div>
     </body>
     <script src="JS_Kids.js"></script>
