@@ -18,15 +18,21 @@ div.tabela{
     width: 60%;
 }
 
+div#menu {
+    width: 100%;
+    margin: -20px auto auto auto;
+}
+
 ul.topnav {
       list-style-type: none;
-      padding: 0;
+      padding: 0px;
       align-self: center;
       overflow: hidden;
       background-color: forestgreen;
     }
 
 ul.topnav li {
+    padding: 0px;
       float:left;
     }
 
@@ -34,26 +40,20 @@ ul.topnav li#menu_left {
       margin: 0 0 0 10%;
       
     }
-ul.topnav li#menu_right {
-      margin: 0 0 0 10%;
-    }
+
 ul.topnav li.doacao{
     float: right;
     margin: 0 10% 0 0;
 }
-ul.topnav li.doacao{
-    float: right;
-}
-
 
 ul.topnav li a {
       display: inline-block;
       color: #f2f2f2;
       text-align: center;
-      padding: 14px 16px;
+      padding: 15px 13px;
       text-decoration: none;
       transition: 0.5s;
-      font-size: 17px;
+      font-size: 16px;
     }
 
 ul.topnav li a:hover {
@@ -65,7 +65,7 @@ ul.topnav li.icon {
     display: none;
 }
 
-@media screen and (max-width:1150px) {
+@media screen and (max-width:1000px) {
     ul.topnav li:not(:first-child){
         display: none;
     }
@@ -75,7 +75,7 @@ ul.topnav li.icon {
     }
 }
 
-@media screen and (max-width:1150px) {
+@media screen and (max-width:1000px) {
     ul.topnav.responsive {
         position: relative;
     }
@@ -88,14 +88,20 @@ ul.topnav li.icon {
 
 ul.topnav.responsive li {
     float: none;
-    display: inline;
+    display:block;
+    margin: 0px;
+
 }
     
 ul.topnav.responsive li a {
     display: block;
     text-align: left;
+    margin: 0px;
 }
     
+ul.topnav.responsive li#menu_left {
+      margin: 0px;
+    }
 
 
 

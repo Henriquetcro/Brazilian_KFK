@@ -169,7 +169,7 @@ Rio de Janeiro, Brazil
   ?>    
         <div id="menu">
             <ul class="topnav" id="myTopnav">
-                <li id="menu_left"><a class="active" href="Kids.php">KICKS FOR KIDS - PUC-RJ</a></li>
+                <li id="menu_left"><a class="active" href="Kids.php">KICKS FOR KIDS - RJ</a></li>
                 <li><a href="Kids_Eventos.php">Eventos</a></li>
                 <li><a href="Kids_Cadastro_Jogador.php">Cadastro do Jogador</a></li> 
                 <li><a href="Kids_Cadastro_Voluntario.php">Seja um Voluntário</a></li>
@@ -186,37 +186,41 @@ Rio de Janeiro, Brazil
 
             <div class=cadastrar>
                 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+                    <fieldset id="dados-pessoais"> <legend>Dados Pessoais</legend>
+                        <label for="nome">Nome</label>
+                        <span class="error">* <?php echo $name_error;?> </span>
+                            <input type="text" name="name" maxlength="15" placeholder="João Pedro">
 
-                    <label for="nome">Nome</label> 
-                    <span class="error">* <?php echo $name_error;?> </span>
-                        <input type="text" name="name" maxlength="15">
+                        <label for="sobrenome">Sobrenome</label> 
+                        <span class="error">* <?php echo $last_error;?> </span>
+                            <input type="text" name="last" maxlength="30" placeholder="Costa da Silva">
+                        
+                        <label for="aniversario">Data de Nascimento</label> 
+                        <span class="error">* <?php echo $birthday_error;?> </span>               
+                            <input type="text" name="birthday" maxlength="10" placeholder="dia/mês/ano">
 
-                    <label for="sobrenome">Sobrenome</label> 
-                    <span class="error">* <?php echo $last_error;?> </span>
-                        <input type="text" name="last" maxlength="30">
+                        <label for="genero">Sexo</label>
+                        <span class="error">* <?php echo $gender_error;?> </span>
+                            <div class=sexo>
+                                <input type="radio" name="gender" value="Mulher">Mulher
+                                <input type="radio" name="gender" value="Homem">Homem
+                            </div>
 
-                    <label for="matricula">Matrícula</label> 
-                    <span class="error">* <?php echo $id_error;?> </span>
-                        <input type="text" name="id" maxlength="7">
+                        <label for="matricula">Matrícula</label> 
+                        <span class="error">* <?php echo $id_error;?> </span>
+                            <input type="text" name="id" maxlength="7">
+                        
+                    </fieldset>
+                        
+                    <fieldset id="contato"> <legend>Contato</legend>
+                        <label for="email">E-mail</label> 
+                        <span class="error">* <?php echo $email_error;?> </span>
+                            <input type="text" name="email" maxlength="20" placeholder="kfk@puc-rio.com">
 
-                    <label for="email">E-mail</label> 
-                    <span class="error">* <?php echo $email_error;?> </span>
-                        <input type="text" name="email" maxlength="20">
-
-                    <label for="email2">Confirmação do E-mail</label>
-                    <span class="error">* <?php echo $conf_email_error;?> </span>
-                        <input type="text" name="emailconf" maxlength="20">
-
-                    <label for="aniversario">Data de Nascimento (dia/mês/ano)</label> 
-                    <span class="error">* <?php echo $birthday_error;?> </span>               
-                        <input type="text" name="birthday" maxlength="10">
-
-                    <label for="genero">Sexo</label>
-                    <span class="error">* <?php echo $gender_error;?> </span>
-                        <div class=sexo>
-                            <input type="radio" name="gender" value="Mulher">Mulher
-                            <input type="radio" name="gender" value="Homem">Homem
-                        </div>
+                        <label for="email2">Confirmação do E-mail</label>
+                        <span class="error">* <?php echo $conf_email_error;?> </span>
+                            <input type="text" name="emailconf" maxlength="20">
+                    </fieldset>
 
                     <label for="camisa">Camisa</label>
                     <span class="error">* <?php echo $shirt_error;?> </span>
@@ -229,7 +233,6 @@ Rio de Janeiro, Brazil
                         <option value="M_adulto">M (Adulto)</option>
                         <option value="G_adulto">G (Adulto)</option>
                     </select>
-
 
                     <label for="curso">Curso</label>
                         <select name="curso">
@@ -311,27 +314,20 @@ Rio de Janeiro, Brazil
                 </form>
                 <p id=aviso>* Todos os dados informados serão apenas utilizados para identificação dos candidatos durante os eventos e envio de e-mails referentes as atividades.<p>
             </div>
-
-            <div>
-                <!--
-                <img src="/Pictures/Kicks_for_Kids-1.jpg" alt="Mountain View" style="width:304px;height:228px;">
-                <img src="/Pictures/Kicks_for_Kids-2.jpg" alt="Mountain View" style="width:304px;height:228px;">
-                <img src="/Pictures/Kicks_for_Kids-3.jpg" alt="Mountain View" style="width:304px;height:228px;">
-                <img src="/Pictures/Kicks_for_Kids-4.jpg" alt="Mountain View" style="width:304px;height:228px;">
-                -->
-            </div>
-            <div class="footer">
+                    
+            <footer id="contact">
                 <p class=p-footer>
-                   Kicks for Kids - P**-RJ<br>
-                   Faça a diferença hoje, não deixe para amanhã!<br>
-                   Telefone: (21)98143-0609<br>
-                   E-mail: kfk-rio@gmail.com<br><br>
-                   Siga, curta e compartilhe a nossa página no Facebook!</p>
-            </div>
-                <div class=facebook> 
-                    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FUSCkicksforkids&width=450&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-                </div>
+                    Kicks for Kids - P**-RJ<br>
+                    Faça a diferença hoje, não deixe para amanhã!<br>
+                    Telefone: (21)98143-0609<br>
+                    E-mail: kfk-rio@gmail.com<br><br>
+                    Siga, curta e compartilhe nossas páginas no Facebook e Instagram!</p>
+            </footer>
         </div>
     </body>
     <script src="JS_Kids.js"></script>
 </html>
+
+<!--<div class=facebook> 
+                    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FUSCkicksforkids&width=450&layout=standard&action=like&size=large&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>-->

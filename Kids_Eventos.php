@@ -29,50 +29,21 @@ Rio de Janeiro, Brazil
                 <li class="doacao"><a href="#doacao">SUPORTE NOSSA CAUSA!</a></li>
                 <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="navIcon()">☰</a></li>
             </ul>        
-    </div> 
+        </div> 
         
     <div id="interface">
         <h1>Estão preparados para um incrível semestre?</h1>
         <h2>Seguem as datas dos próximos eventos que serão realizados:</h2>
         
-
-
-        <div id="eventos">
+        <ul id="eventos">
+            <li id="evento1"></li>
+            <li id="evento2"></li>
+            <li id="evento3"></li>
+            <li id="evento4"></li>
+            <li id="evento5"></li>
+            <li id="evento6"></li>
             
-        <div id="evento">
-            <figure class="foto-legenda">
-            <img src="images/12998352_833507633457687_1091591875425750832_o.jpg"/>
-            <figcaption>
-                <div class="foto">
-                    <h1 id="eventos">PRIMEIRO EVENTO - DIA 03/05</h1> 
-                </div>
-            </figcaption> 
-            </figure>
-        </div>
-        
-        <div id="evento">
-            <figure class="foto-legenda">
-                <img src="images/Henrique-kfk.jpg"/>
-                <figcaption>
-                    <div class="foto">
-                        <h1 id="eventos">SEGUNDO EVENTO - DIA 03/05</h1> 
-                    </div>
-                </figcaption> 
-            </figure>
-        </div>
-            
-        <div id="evento">
-            <figure class="foto-legenda">
-            <img src="images/12657222_753968681411583_7519075128256035181_o.jpg"/>
-            <figcaption>
-                <div class="foto">
-                    <h1 id="eventos">TERCEIRO EVENTO - DIA 03/05</h1> 
-                </div>
-            </figcaption> 
-            </figure>
-        </div>
-            
-        </div>
+        </ul>
         
         <div class="footer">
             <p class=p-footer>
@@ -82,6 +53,7 @@ Rio de Janeiro, Brazil
                E-mail: kfk-rio@gmail.com</p>
         </div>
     </div>
+        
     </body>
     <script src="JS_Kids.js"></script>
 </html>
